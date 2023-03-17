@@ -1,0 +1,596 @@
+/* ============General Styles============ */
+* {
+  padding: 0%;
+  margin: 0%;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Raleway", sans-serif;
+}
+p {
+  font-weight: 100;
+  color: rgba(0, 0, 0, 0.549);
+}
+/* ============Header Styles ============ */
+header {
+  margin-top: -3.7%;
+  min-height: 110vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  background-image: url("Images/banner-bg.png");
+}
+/*  ===========Navigation bar Styles===== */
+.main_nav {
+  width: 77.9%;
+  height: 50px;
+  padding: 12px 20px;
+  background-color: white;
+  box-shadow: 0px 0px 15px rgb(0 0 0 / 10%);
+  position: fixed;
+  border-radius: 40px;
+  margin-left: 10%;
+  margin-right: 10%;
+  top: 11.2%;
+  justify-content: space-between;
+  z-index: 3;
+  display: flex;
+}
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+li {
+  justify-items: center;
+  align-content: center;
+}
+header .main_nav a {
+  font-size: 11px;
+  font-weight: 600px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 1.75px;
+  padding: 0px 20px;
+  color: black;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+.active {
+  color: #ff589e;
+}
+header .main_nav a:hover {
+  color: #ff589e;
+}
+img {
+  padding-top: 10px;
+}
+/* ============Header Description============ */
+header article {
+  margin-top: 270px;
+  margin-inline: auto;
+  text-align: center;
+}
+header h3 {
+  font-size: 33px;
+  width: fit-content;
+  margin: auto;
+  line-height: 54px;
+  margin-bottom: 15px;
+  color: white;
+  letter-spacing: 1.4px;
+}
+header p {
+  width: fit-content;
+  margin: auto;
+  margin-bottom: 30px;
+  font-size: 15px;
+  color: white;
+  line-height: 28px;
+  letter-spacing: 0.25px;
+}
+/* Three Top Links */
+header article a {
+  font-size: 13.5px;
+  color: white;
+  width: 140px;
+  background-color: #ff589e;
+  padding: 12px 18px;
+  border-radius: 40px;
+  margin-top: 20px;
+  margin-inline: auto;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+header article a:hover {
+  background-color: #8261ee;
+}
+.top-links {
+  display: flex;
+  justify-content: center;
+  align-content: space-around;
+  gap: 30px;
+  margin-inline: auto;
+}
+.top-links .top-link {
+  text-decoration: none;
+  width: 300px;
+  height: 290px;
+  padding: 20px 15px;
+  text-align: center;
+  border-radius: 20px;
+  background-color: white;
+  box-shadow: 0 2px 48px 0 rgb(0 0 0 / 10%);
+  margin-top: -14%;
+  cursor: pointer;
+}
+.top-links .top-link h4 {
+  font-size: 20px;
+  color: black;
+}
+.icon {
+  padding: 10px;
+  display: inline-block;
+  background-color: #8261ee;
+  text-align: center;
+  border-radius: 40px;
+  margin-bottom: 30px;
+  transition: all 0.3s ease;
+}
+.top-links .top-link p {
+  margin-top: 30px;
+}
+.top-links .top-link:hover .icon {
+  background-color: #ff589e;
+}
+/* ============About Styles============ */
+#about .about__article {
+  display: flex;
+  justify-content: space-evenly;
+  margin-block: 100px;
+  align-items: center;
+}
+.about__article__p {
+  margin-top: 50px;
+  width: 600px;
+}
+hr {
+  width: 80%;
+  margin: auto;
+  opacity: 0.4;
+}
+/* ============Work Process Styles======= */
+#work-process {
+  background-image: url("Images/work-process-bg.png");
+  min-height: 75vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+/* =============Title & Description========= */
+.container {
+  width: 100%;
+  align-content: center;
+  transform: translateY(100px);
+}
+.work-process__title {
+  color: white;
+  text-align: center;
+  font-size: 28px;
+}
+.work-process__paragraph {
+  color: white;
+  text-align: center;
+  width: 552.8px;
+  margin: 30px auto;
+}
+/* Work Process's Five Cards */
+.work-process__windows {
+  display: flex;
+  column-gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.work-process__windows_container {
+  display: flex;
+  justify-content: center;
+  margin: 170px 0px;
+}
+.work-process__windows div {
+  display: flex;
+  background-color: white;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 10px;
+  gap: 15px;
+  border-radius: 20px;
+  width: 150px;
+  height: 152px;
+  box-shadow: 11px 11px 0px 0px rgb(255 255 255 / 15%);
+  transition: all 0.3s ease;
+  margin-top: 20px;
+}
+.work-process__windows div img {
+  width: 32px;
+  height: 32px;
+}
+.work-process__windows div:hover {
+  cursor: pointer;
+  transform: translateY(-15px);
+}
+/* Testimonials Section Style */
+
+/* Testimonials's Top Text Style */
+.Testimonials__container {
+  text-align: center;
+  margin: 50px auto;
+}
+.Testimonials__container__title {
+  font-size: 28px;
+  letter-spacing: 1.75px;
+  margin-bottom: 20px;
+}
+.Testimonials__container__description {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 654px;
+}
+/* Testimonials's Three Cards */
+.Testimonials__cards {
+  margin-top: 50px;
+  margin-bottom: 300px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.Testimonials__card {
+  cursor: pointer;
+  width: 300px;
+  height: 272px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 5px;
+  box-shadow: 0 2px 48px 0 rgb(0 0 0 / 8%);
+  border-radius: 20px;
+}
+.Testimonials__cards__person {
+  text-align: center;
+  transition: all 0.3s ease;
+}
+.Testimonials__cards__person__name {
+  font-size: 17px;
+  font-weight: 500px;
+}
+.Testimonials__cards__person__job {
+  font-size: 15px;
+  font-weight: 500px;
+  color: #ff589e;
+}
+.Testimonials__card:hover .Testimonials__cards__person {
+  transform: translateX(15px);
+}
+/* Pricing Tables's Style */
+#pricing-tables {
+  min-height: 75vh;
+  background-color: #f2f2fe;
+  padding-bottom: 50px;
+}
+/* Pricing Tables's Title & Description */
+.pricing-tables__article {
+  margin: auto;
+  margin-bottom: 70px;
+  text-align: center;
+}
+.pricing-tables__article__title {
+  font-size: 28px;
+  letter-spacing: 1.75px;
+  padding-top: 70px;
+}
+.pricing-tables__article__paragraph {
+  text-align: center;
+  max-width: 800px;
+  margin: 20px auto 80px;
+}
+/* pricing-plans's Cards Style */
+.pricing-tables__cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+.pricing-tables__cards__card {
+  display: flex;
+  background-color: white;
+  width: 300px;
+  height: 476px;
+  border-radius: 20px;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  padding: 20px 5px;
+}
+/* pricing-plans's Card Price Section */
+.pricing-tables__cards__card__price {
+  display: flex;
+  flex-direction: column;
+  line-height: 30px;
+  text-align: center;
+  background-color: #8261ee;
+  width: 200px;
+  height: 68px;
+  padding: 20px;
+  margin: 5px 29px 40px;
+  border-radius: 20px;
+  justify-content: center;
+  color: white;
+}
+/* pricing-plans's Card Specs's */
+.pricing-tables__cards__card__specs {
+  line-height: 35px;
+  text-align: center;
+}
+/* pricing-plans's Card Specs's text */
+.pricing-tables__cards__card__specs h6 {
+  font-size: 12px;
+  opacity: 0.65;
+}
+/* pricing-plans's Card PURCHASE NOW Button */
+.pricing-tables__cards__card__button {
+  font-size: 13px;
+  letter-spacing: 0.25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #8261ee;
+  padding: 12px 20px;
+  margin-top: 15px;
+  color: white;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.pricing-tables__cards__card__button:hover {
+  background-color: #ff589e;
+}
+/* Statistics Section Styles */
+.statistics {
+  display: flex;
+  height: 40vh;
+  background-image: url("Images/fun-facts-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+}
+.statistics__items {
+  display: flex;
+  width: fit-content;
+  text-align: center;
+  min-width: 65%;
+}
+.statistics__item {
+  color: white;
+  font-size: 36px;
+  font-weight: 800;
+  line-height: 50px;
+}
+.statistics__item h4 {
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 0.25px;
+}
+/* Blog Enteries Section Style */
+#blog-enteries {
+  min-height: 80vh;
+  justify-content: center;
+}
+/* Blog Enteries Title & Description Style */
+.blog-enteries__article {
+  margin: 70px auto;
+  text-align: center;
+  max-height: 140px;
+}
+.blog-enteries__article__title {
+  font-size: 28px;
+  letter-spacing: 1.75px;
+}
+.blog-enteries__article__paragraph {
+  font-size: 15px;
+  font-weight: 400;
+  text-align: center;
+  max-width: 654px;
+  letter-spacing: 0.25px;
+  margin: 20px auto 30px auto;
+}
+/* Blog Enteries Cards Style */
+.blog-enteries__cards {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+  flex-wrap: wrap;
+}
+.blog-enteries__card {
+  display: flex;
+  width: 300px;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  gap: 15px;
+  padding: 20px 5px;
+  border-radius: 20px;
+  margin-bottom: 30px;
+}
+/* Blog Enteries Card Title Style */
+.blog-enteries__card__title {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  letter-spacing: 0.25px;
+}
+/* Blog Enteries Card Paragraph Style */
+.blog-enteries__card__paragraph {
+  font-size: 13px;
+  letter-spacing: 0.25px;
+  width: 290px;
+}
+/* Blog Enteries Card Button */
+.blog-enteries__card__button {
+  font-size: 13px;
+  border-radius: 20px;
+  width: 120px;
+  padding: 12px 15px;
+  background-color: #8261ee;
+  color: #fff;
+  letter-spacing: 0.25px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.blog-enteries__card__button:hover {
+  background-color: #ff589e;
+}
+/* Contact Us Section Styles */
+/* General Section Styles */
+#contact-us {
+  min-height: 100vh;
+  background-color: #f2f2fe;
+}
+/* Header Article's Title & Paragraph Styles */
+.contact-us__header-article {
+  width: 44%;
+  text-align: center;
+  margin: 0px auto 0px auto;
+  padding-top: 70px;
+}
+/* Header Title Styles */
+.contact-us__header-article__title {
+  margin-bottom: 20px;
+  font-size: 28px;
+  letter-spacing: 1.75px;
+}
+/* Header Article's Paragraph Styles */
+.contact-us__header-article__paragraph {
+  font-size: 15px;
+  margin-bottom: 30px;
+}
+/* Contact Us Section Styles */
+.contact-us__contact {
+  display: flex;
+}
+/* Main Article's Title & Paragraph Styles */
+.contact-us__main-article {
+  width: 500px;
+  text-align: center;
+  margin-left: 13%;
+  padding-top: 23px;
+}
+/* Main Title Styles */
+.contact-us__main-article__title {
+  margin: 30px auto;
+  font-size: 17px;
+}
+/* Main Article's Paragraph Styles */
+.contact-us__main-article__paragraph {
+  width: 450px;
+  margin-bottom: 30px;
+  line-height: 26px;
+  letter-spacing: 0.25px;
+  font-size: 15px;
+  font-weight: 500;
+}
+/* Form inputs Section Styles */
+.contact-us__form {
+  width: 100%;
+  text-align: center;
+  margin-left: 10%;
+  margin-top: 40px;
+}
+/* Form inputs Section Styles */
+.contact-us__form__inputs {
+  display: flex;
+  gap: 10px;
+}
+/* Form Inputs Styles */
+.contact-us__form__input {
+  font-size: 14px;
+  border-radius: 25px;
+  padding: 1px 21px;
+  border: none;
+  width: 40%;
+  height: 50px;
+}
+/* Form Message Box Styles */
+.contact-us__form__message {
+  font-size: 15px;
+  border-radius: 25px;
+  border: 1px solid white;
+  outline: none;
+  width: 88%;
+  height: 250px;
+  resize: none;
+  margin: 30px 0px;
+  transform: translateX(-30px);
+  padding: 15px;
+}
+/* Form Button Styles */
+.contact-us__form__button {
+  font-size: 13px;
+  border-radius: 20px;
+  padding: 12px 20px;
+  background-color: #8261ee;
+  color: white;
+  letter-spacing: 0.25px;
+  border: none;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+.contact-us__form__button:hover {
+  background-color: #ff589e;
+}
+/* Footer Section */
+footer {
+  background-color: #8261ee;
+  padding: 30px;
+  text-align: center;
+  color: white;
+}
+.footer__socials {
+  display: flex;
+  width: 43%;
+  margin: 12px auto;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+.footer__socials a {
+  color: #9d5bd9;
+  text-align: center;
+  background-color: #fff;
+  width: 36px;
+  height: 36px;
+  line-height: 36px;
+  border-radius: 50%;
+  display: inline-block;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+.footer__socials a:hover {
+  color: #fff;
+  background-color: #ff589e;
+}
+/* Copy Right Section */
+.footer__copy-right {
+  font-weight: 400;
+  letter-spacing: 0.25px;
+  font-size: 13px;
+  color: white;
+}
